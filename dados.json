@@ -1,0 +1,11 @@
+{
+    "nome": "Nome da Pessoa",
+    "endereco": "Rua buriti 134",
+    "cpf" :"123.345.987-90",
+    "casado": true, 
+    "imoveis": [
+        "casa",
+        "sitio"
+    ],
+    "idade": 65       
+}  

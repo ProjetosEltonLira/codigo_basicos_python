@@ -1,0 +1,13 @@
+try:
+    carros = ['gol','brasilia','fusca','ka']
+
+    print(carros[0])
+    print(carros[1])
+    print(carros[2])
+    print(carros[3])
+    print(carros[4])
+
+except IndexError as erro:
+    print(f"> Ocorreu uma excecao erro: {erro}")
+
+print("Fim da execucao do programa")

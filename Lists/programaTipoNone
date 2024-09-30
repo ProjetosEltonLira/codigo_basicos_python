@@ -1,0 +1,3 @@
+exemplo = {} #None é o tipo de dado quando é vazio
+resultado = exemplo.get('idade') # Checa se existe idade na lista exemplo, como não tem o Resultado será None
+print(resultado)

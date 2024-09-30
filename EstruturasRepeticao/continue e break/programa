@@ -1,0 +1,8 @@
+for i in range(10):
+    #if i == 5 :
+    #    break   #break sai do for
+    if i == 5 :
+        continue #continue sai dessa repetição e vai para a proxima iteração
+    print(i)
+
+print('-- FIM ---')

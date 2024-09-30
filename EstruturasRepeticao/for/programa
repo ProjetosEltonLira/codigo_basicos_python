@@ -1,0 +1,29 @@
+datas = [3,14,9,22,8]
+animais = ["gato","corvo","coelho","baleia","porco"]
+dados = {
+    'nome': 'Luke',
+    'email': "luke@gmail.com",
+    'nascimento': 1997
+}
+
+for animal in animais: 
+    print(f'Tenho um {animal}')
+
+for chave in dados:
+    #print(dado)
+                                #O dicionário e a [chave]
+    print(f'O valor do {chave} é {dados[chave]} ')
+
+for numero in range(10,21):
+    print (numero)
+
+
+print (datas)
+
+print("---enumerate dá o indice da lista----")
+for indice, data in enumerate(datas):
+    datas[indice] = data * 2
+    print(f'O indice {indice} data {datas[indice]} ')
+    
+
+print (datas)

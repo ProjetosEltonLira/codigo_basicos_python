@@ -1,0 +1,16 @@
+
+'''
+Função com parâmetros e return
+'''
+#Em uma função python é possível retornar mais de 1 valor
+
+def calcular_idade(ano_nascimento,ano_atual =2024): 
+    idade = ano_atual - ano_nascimento
+    return idade , ano_atual
+    
+
+#idade = calcular_idade(1995,2024)
+
+idade, ano_atual = calcular_idade(1995,2024)
+
+print(f'Você completou {idade} em {ano_atual}')

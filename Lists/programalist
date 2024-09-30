@@ -1,0 +1,54 @@
+ecs_ids = []
+print(type(ecs_ids))
+
+datas = [3,14,9,22,8]
+premios = [120.5,99.2,12.7]
+mamiferos = ["gatos",
+             "cachorro",
+             "coelho"] # a lista pode quebrar linha
+
+aves = ["pardal","tucado","arara"]
+dados = ["Anakin",79, True] # é possível ter lista que recebe varios tipos de dados
+animais = [mamiferos,aves]
+
+print(datas)
+print(premios)
+print(mamiferos)
+print(aves)
+print(dados)
+print(animais)
+
+# Pasra acessar um elemento da lista.
+print(datas)
+print(datas[0])
+print(datas[4])
+
+print(datas[1:4])
+
+partes_data = datas[1:4]
+print (partes_data)
+
+print(datas[-1]) #Pega o ultimo elemento
+
+print(animais[0][1]) #O zero pega a lista toda
+print(animais[1][1])
+
+print ('cachoro' in mamiferos)
+
+print ('Jacaré' not in mamiferos)
+
+print([2,4,6] +[ 9,8,7])
+print(len(mamiferos)) #3
+print(max(datas)) #22
+print(min(datas)) #3
+
+print(datas)
+datas.append(31)
+datas.append(1)
+print(datas)
+
+del datas[2]
+print(datas)
+
+datas.clear
+print(datas)

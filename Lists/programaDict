@@ -1,0 +1,34 @@
+#gato = dict(nome = "Toby", idade = 1) #dict é um dictionary
+# outra forma de declarar
+gato = {'nome' : 'Toby',
+        'idade' : 2
+        } 
+print(type(gato))
+print(gato)
+
+
+carro_1 = {
+    'cor': 'cinza',
+    'ano': 2008,
+    'modelo' : 'Gol',
+    'marca': 'VW',
+    'ipva' : True
+    }
+
+print(carro_1)
+
+
+print(carro_1['marca']) #Para achar um  certificado Acessar uma chave 
+print(carro_1['modelo']) #Para achar um  certificado Acessar uma chave 
+
+print('tanque' in carro_1)
+print(len(carro_1))
+
+del carro_1['marca']
+#print(carro_1['marca']) #Não vai achar na lista 
+print(len(carro_1))
+
+print(list(carro_1)) #Apresentar todas as chaves da lista
+
+carro_1['ano'] = 2017
+print(carro_1)

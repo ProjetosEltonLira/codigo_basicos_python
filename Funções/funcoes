@@ -1,0 +1,17 @@
+'''funcao Sem Retorno''' 
+
+def calcular_idade(): 
+    ano_nascimento = 1985
+    ano_atual = 2023
+    idade =  ano_atual - ano_nascimento
+    print(idade)
+
+
+def informar_idade():
+    print("Você fez")
+    calcular_idade()
+    print("Parabéns")
+
+#chama as funções
+#informar_idade()
+
